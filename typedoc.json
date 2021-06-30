@@ -1,0 +1,6 @@
+{
+    "entryPoints": [
+        "./src/hola.ts"
+    ],
+    "out": "./docs"
+}

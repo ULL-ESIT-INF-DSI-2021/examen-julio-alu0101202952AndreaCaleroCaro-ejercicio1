@@ -1,4 +1,9 @@
 /**
+ * EXAMEN JULIO DSI, EJERCICIO 1
+ * Andrea Calero Caro alu0101202952
+ */
+
+/**
  * @Class Matrix, define una matrix, cogiendo por filas y columnas
  * y rellenando la misma
  */
@@ -50,6 +55,13 @@ export class Matrix{
         this.matrix[i].push(value);
       }
     }
+  }
+
+  public getRows(matrix: Matrix){
+    return this.rows;
+  }
+  public getCols(matrix: Matrix){
+    return this.columns;
   }
 
   /**

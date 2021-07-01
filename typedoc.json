@@ -1,6 +1,7 @@
 {
     "entryPoints": [
-        "./src/matrix.ts"
+        "./src/matrix.ts",
+        "./src/matrixOper.ts"
     ],
     "out": "./docs"
 }
